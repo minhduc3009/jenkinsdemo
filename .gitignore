@@ -10,3 +10,12 @@
 test-results*.xml
 .vscode/
 Debug/
+".settings/language.settings.xml" 
+"Debug/App/gpio-app/subdir.mk" 
+"Debug/Core/Src/subdir.mk" 
+"Debug/Core/Startup/subdir.mk" 
+"Debug/Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk" 
+"Debug/makefile" 
+"Debug/objects.list" 
+"Debug/objects.mk" 
+"Debug/sources.mk" 
