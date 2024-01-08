@@ -9,3 +9,4 @@
 *.su
 test-results*.xml
 /.vscode/
+/Debug/
