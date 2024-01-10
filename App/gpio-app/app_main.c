@@ -144,7 +144,7 @@ extern UART_HandleTypeDef CONFIG_CONSOLE_UART;
 void app_main(void)
 {
     setvbuf(stdout, NULL, _IONBF, 0); // Remove buffering on stdout.
-    printf("\nStarting\n");
+    printf("\nStartinggggggggggggggggggg\n");
 
     while (1) {
         const int CMD_BFR_SIZE = 80;
