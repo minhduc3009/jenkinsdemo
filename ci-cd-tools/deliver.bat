@@ -13,7 +13,7 @@ exit /b 1
 set "workspace=%1"
 set "build_id=%2"
 set "git_commit=%3"
-set "deliver_dir=C:\Users\gene\Documents\Gene\proj\builds\%build_id%"
+set "deliver_dir=C:\Users\Admin\Downloads\ci-cd-class-1\builds\%build_id%"
 
 if not exist "%deliver_dir%\" goto :makedir
 echo ERROR: Deliver directory %deliver_dir% already exists
