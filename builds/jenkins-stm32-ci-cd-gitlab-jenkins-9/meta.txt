@@ -1,0 +1,33 @@
+Jenkins build id: jenkins-stm32-ci-cd-gitlab-jenkins-9 
+Git commit: f7d58c1b293a7062350e427956c3b1d1f62585e1 
+Last 5 commits... 
+ 
+commit f7d58c1b293a7062350e427956c3b1d1f62585e1
+Author: Duc.VuMinh <duc.vuminh@meiko.vn>
+Date:   Wed Jan 10 13:22:55 2024 +0700
+
+    update jk
+
+commit bbb2c595f2d308506e4d95b94d12900fd22d308b
+Author: Duc.VuMinh <duc.vuminh@meiko.vn>
+Date:   Wed Jan 10 13:21:40 2024 +0700
+
+    update jk
+
+commit 486a0cf8815d3a0460deeda6bdde792eb81e168e
+Author: Duc.VuMinh <duc.vuminh@meiko.vn>
+Date:   Wed Jan 10 13:19:07 2024 +0700
+
+    update jenkins
+
+commit c07c72e573f9187bf8e0e86a51fbfc286c5d11ae
+Author: Duc.VuMinh <duc.vuminh@meiko.vn>
+Date:   Wed Jan 10 11:59:12 2024 +0700
+
+    demo Jenkins
+
+commit 1d2539ea366f6fe277be71d3100baf6cf693949d
+Author: Duc.VuMinh <duc.vuminh@meiko.vn>
+Date:   Wed Jan 10 11:42:54 2024 +0700
+
+    Change deliver.bat
