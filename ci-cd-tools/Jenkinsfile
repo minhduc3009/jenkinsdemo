@@ -2,20 +2,20 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('1Build') {
             steps {
                 bat 'echo "Hello from Jenkins! 1"'
                 bat 'echo "Hello from Jenkins! 2"'
             }
         }
-        stage('Test') {
+        stage('2Test') {
             steps {
                 bat 'echo "Test- Hello from Jenkins! 1"'
                 bat 'echo "Test- Hello from Jenkins! 2"'
             }
         }
-        stage('Release') {
-            steps {
+        stage('3Release') {
+            steps { 
                 bat 'echo "Release - Hello from Jenkins! 1"'
                 bat 'echo "Release - Hello from Jenkins! 2"'
             }
