@@ -35,7 +35,7 @@ pipeline {
         stage('Build') { 
             steps {
                 bat "${TOOL_DIR}\\build.bat ${WORKSPACE}\\Debug Debug all"
-                // bat "${TOOL_DIR}\\build.bat ${WORKSPACE}\\Release Release all"
+                bat "${TOOL_DIR}\\build.bat ${WORKSPACE}\\Release Release all"
             }
         }
 
@@ -61,11 +61,11 @@ pipeline {
         //     }
         // }
 
-        // stage('Flash-Release') { 
-        //     steps {
-        //         bat "${TOOL_DIR}\\flash.bat $params.DUT_STLINK_sn ${WORKSPACE}\\Release\\ci-cd-class-1.bin"
-        //     }
-        // }
+        stage('Flash-Release') { 
+            steps {
+                bat "${TOOL_DIR}\\flash.bat $params.DUT_STLINK_sn ${WORKSPACE}\\Release\\ci-cd-class-1.bin"
+            }
+        }
 
         // stage('Test-Release') { 
         //     steps {
